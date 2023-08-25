@@ -24,10 +24,17 @@
       <button class="tab-button" data-tab="share">Share Notes</button>
     </div>
     <div class="tab-content" id="upload">
-      <h2>Upload Notes</h2>
-      <p>Select files and upload your notes here.</p>
-      <input type="file" multiple>
-      <button class="upload-button">Upload</button>
+	
+	
+	<label for="courseTitle">Course Title</label>
+      <input type="text" id="courseTitle" name="courseTitle" required>
+      
+      <label for="courseFile">Select File</label>
+      <input type="file" id="noteFile" name="noteFile" accept=".pdf,.docx" required>
+      
+      <button type="submit">Upload</button>
+	  
+	  
     </div>
     <div class="tab-content" id="sync">
       <h2>Sync with Cloud</h2>
