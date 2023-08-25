@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Computer Notes Hub</title>
+</head>
+<body>
+<header class="sticky-header">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Service</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="service-tabs">
+    <div class="tab-header">
+      <button class="tab-button active" data-tab="upload">Upload Notes</button>
+      <button class="tab-button" data-tab="sync">Sync with Cloud</button>
+      <button class="tab-button" data-tab="share">Share Notes</button>
+    </div>
+    <div class="tab-content" id="upload">
+      <h2>Upload Notes</h2>
+      <p>Select files and upload your notes here.</p>
+      <input type="file" multiple>
+      <button class="upload-button">Upload</button>
+    </div>
+    <div class="tab-content" id="sync">
+      <h2>Sync with Cloud</h2>
+      <p>Sync your notes with a cloud storage service.</p>
+      <button class="sync-button">Sync Now</button>
+    </div>
+    <div class="tab-content" id="share">
+      <h2>Share Notes</h2>
+      <p>Share your notes with others easily.</p>
+      <input type="email" placeholder="Enter email">
+      <button class="share-button">Share</button>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 Computer Notes Hub. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
