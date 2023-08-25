@@ -75,6 +75,7 @@ ul {
 
 
 input[type="text"],
+input[type="file"],
 input[type="email"],
 textarea {
   width: 100%;
@@ -87,6 +88,10 @@ textarea {
 textarea {
   resize: vertical;
 }
+
+label {
+  display: block;
+  margin-bottom: 5px;
 
 button[type="submit"] {
   background-color: #333;
