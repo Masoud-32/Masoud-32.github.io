@@ -108,6 +108,20 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #555;
 }
+ 
+  table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: ;
+        }
 
 footer {
   background-color: #333;
